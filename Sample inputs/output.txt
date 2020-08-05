@@ -1,0 +1,21 @@
+Enter the people names : t 6 7 8 9 10
+Enter no of criteria : 2
+Enter condition 1 people names : 7
+Enter condition 1 Supporters : t
+Enter condition 1 Killers : 6 8
+Enter condition 2 people names : 9
+Enter condition 2 Supporters : t
+Enter condition 2 Killers : 8 10
+Enter boat size : 3
+Enter the boaters names : t
+True [[[], ['t', '6', '7', '8', '9', '10'], True], [['7', '9', 't'], ['10', '6', '8'], False], [['7', '9'], ['10', '6', '8', 't'], True], [['6', '7', '9', 't'], ['10', '8'], False], [['6', '9'], ['10', '7', '8', 't'], True], [['6', '8', '9', 't'], ['10', '7'], False], [['6', '8'], ['10', '7', '9', 't'], True], [['10', '6', '8', 't'], ['7', '9'], False], [['10', '6', '8'], ['7', '9', 't'], True], [['10', '6', '7', '8', '9', 't'], [], False]]
+
+MOVE LEFT :7, 9, t
+MOVE RighT :t
+MOVE LEFT :6, t
+MOVE RighT :7, t
+MOVE LEFT :8, t
+MOVE RighT :9, t
+MOVE LEFT :10, t
+MOVE RighT :t
+MOVE LEFT :7, 9, t
