@@ -1,0 +1,32 @@
+Enter the people names : police thief redmiss redboy1 redboy2 bluemiss1 blueboy1 blueboy2
+Enter no of criteria : 3
+Enter condition 1 people names : redmiss redboy1 redboy2 bluemiss1 blueboy1 blueboy2
+Enter condition 1 Supporters : police
+Enter condition 1 Killers : thief
+Enter condition 2 people names : redboy1 redboy2
+Enter condition 2 Supporters : redmiss
+Enter condition 2 Killers : bluemiss1
+Enter condition 3 people names : blueboy1 blueboy2
+Enter condition 3 Supporters : bluemiss1
+Enter condition 3 Killers : redmiss
+Enter boat size : 2
+Enter the boaters names : police thief redmiss bluemiss1
+True [[[], ['police', 'thief', 'redmiss', 'redboy1', 'redboy2', 'bluemiss1', 'blueboy1', 'blueboy2'], True], [['police', 'thief'], ['blueboy1', 'blueboy2', 'bluemiss1', 'redboy1', 'redboy2', 'redmiss'], False], [['thief'], ['blueboy1', 'blueboy2', 'bluemiss1', 'police', 'redboy1', 'redboy2', 'redmiss'], True], [['police', 'redboy1', 'thief'], ['blueboy1', 'blueboy2', 'bluemiss1', 'redboy2', 'redmiss'], False], [['redboy1'], ['blueboy1', 'blueboy2', 'bluemiss1', 'police', 'redboy2', 'redmiss', 'thief'], True], [['redboy1', 'redboy2', 'redmiss'], ['blueboy1', 'blueboy2', 'bluemiss1', 'police', 'thief'], False], [['redboy1', 'redboy2'], ['blueboy1', 'blueboy2', 'bluemiss1', 'police', 'redmiss', 'thief'], True], [['bluemiss1', 'redboy1', 'redboy2', 'redmiss'], ['blueboy1', 'blueboy2', 'police', 'thief'], False], [['redboy1', 'redboy2', 'redmiss'], ['blueboy1', 'blueboy2', 'bluemiss1', 'police', 'thief'], True], [['police', 'redboy1', 'redboy2', 'redmiss', 'thief'], ['blueboy1', 'blueboy2', 'bluemiss1'], False], [['police', 'redboy1', 'redboy2', 'thief'], ['blueboy1', 'blueboy2', 'bluemiss1', 'redmiss'], True], [['bluemiss1', 'police', 'redboy1', 'redboy2', 'redmiss', 'thief'], ['blueboy1', 'blueboy2'], False], [['police', 'redboy1', 'redboy2', 'redmiss', 'thief'], ['blueboy1', 'blueboy2', 'bluemiss1'], True], [['blueboy1', 'bluemiss1', 'police', 'redboy1', 'redboy2', 'redmiss', 'thief'], ['blueboy2'], False], [['blueboy1', 'bluemiss1', 'redboy1', 'redboy2', 'redmiss'], ['blueboy2', 'police', 'thief'], True], [['blueboy1', 'blueboy2', 'bluemiss1', 'police', 'redboy1', 'redboy2', 'redmiss'], ['thief'], False], [['blueboy1', 'blueboy2', 'bluemiss1', 'redboy1', 'redboy2', 'redmiss'], ['police', 'thief'], True], [['blueboy1', 'blueboy2', 'bluemiss1', 'police', 'redboy1', 'redboy2', 'redmiss', 'thief'], [], False]]
+
+MOVE LEFT :police, thief
+MOVE RighT :police
+MOVE LEFT :police, redboy1
+MOVE RighT :police, thief
+MOVE LEFT :redboy2, redmiss
+MOVE RighT :redmiss
+MOVE LEFT :bluemiss1, redmiss
+MOVE RighT :bluemiss1
+MOVE LEFT :police, thief
+MOVE RighT :redmiss
+MOVE LEFT :bluemiss1, redmiss
+MOVE RighT :bluemiss1
+MOVE LEFT :blueboy1, bluemiss1
+MOVE RighT :police, thief
+MOVE LEFT :blueboy2, police
+MOVE RighT :police
+MOVE LEFT :police, thief
