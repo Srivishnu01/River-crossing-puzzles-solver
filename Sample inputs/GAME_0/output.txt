@@ -1,0 +1,19 @@
+Enter the people names : Goat grass tiger man
+Enter no of criteria : 2
+Enter condition 1 people names : Goat
+Enter condition 1 Supporters : man
+Enter condition 1 Killers : tiger
+Enter condition 2 people names : grass
+Enter condition 2 Supporters : man
+Enter condition 2 Killers : Goat
+Enter boat size : 2
+Enter the boaters names : man
+True [[[], ['Goat', 'grass', 'tiger', 'man'], True], [['Goat', 'man'], ['grass', 'tiger'], False], [['Goat'], ['grass', 'man', 'tiger'], True], [['Goat', 'grass', 'man'], ['tiger'], False], [['grass'], ['Goat', 'man', 'tiger'], True], [['grass', 'man', 'tiger'], ['Goat'], False], [['grass', 'tiger'], ['Goat', 'man'], True], [['Goat', 'grass', 'man', 'tiger'], [], False]]
+
+MOVE LEFT :Goat, man
+MOVE RighT :man
+MOVE LEFT :grass, man
+MOVE RighT :Goat, man
+MOVE LEFT :man, tiger
+MOVE RighT :man
+MOVE LEFT :Goat, man
