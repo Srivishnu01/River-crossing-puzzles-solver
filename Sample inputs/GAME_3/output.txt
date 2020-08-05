@@ -1,0 +1,44 @@
+Enter the people names : redMan redWoman blueMan blueWoman yellowMan yellowWoman
+Enter no of criteria : 3
+Enter condition 1 people names : redWoman
+Enter condition 1 Supporters : redMan
+Enter condition 1 Killers : blueMan yellowMan
+Enter condition 2 people names : blueWoman
+Enter condition 2 Supporters : blueMan
+Enter condition 2 Killers : redMan yellowMan
+Enter condition 3 people names : yellowWoman
+Enter condition 3 Supporters : yellowWoman
+Enter condition 3 Killers : blueMan redMan
+Enter boat size : 2
+Enter the boaters names : redMan redWoman blueMan blueWoman yellowMan yellowWoman
+True [[[], ['redMan', 'redWoman', 'blueMan', 'blueWoman', 'yellowMan', 'yellowWoman'], True], [['redMan', 'redWoman'], ['blueMan', 'blueWoman', 'yellowMan', 'yellowWoman'], False], [['redWoman'], ['blueMan', 'blueWoman', 'redMan', 'yellowMan', 'yellowWoman'], True], [['blueWoman', 'redWoman'], ['blueMan', 'redMan', 'yellowMan', 'yellowWoman'], False], [['blueWoman'], ['blueMan', 'redMan', 'redWoman', 'yellowMan', 'yellowWoman'], True], [['blueWoman', 'yellowWoman'], ['blueMan', 'redMan', 'redWoman', 'yellowMan'], False], [['yellowWoman'], ['blueMan', 'blueWoman', 'redMan', 'redWoman', 'yellowMan'], True], [['yellowMan', 'yellowWoman'], ['blueMan', 'blueWoman', 'redMan', 'redWoman'], False], [['yellowMan'], ['blueMan', 'blueWoman', 'redMan', 'redWoman', 'yellowWoman'], True], [['redMan', 'redWoman', 'yellowMan'], ['blueMan', 'blueWoman', 'yellowWoman'], False], [['redMan', 'redWoman'], ['blueMan', 'blueWoman', 'yellowMan', 'yellowWoman'], True], [['redMan', 'redWoman', 'yellowWoman'], ['blueMan', 'blueWoman', 'yellowMan'], False], [['redWoman', 'yellowWoman'], ['blueMan', 'blueWoman', 'redMan', 'yellowMan'], True], [['blueWoman', 'redWoman', 'yellowWoman'], ['blueMan', 'redMan', 'yellowMan'], False], [['blueWoman', 'yellowWoman'], ['blueMan', 'redMan', 'redWoman', 'yellowMan'], True], [['blueMan', 'blueWoman', 'yellowWoman'], ['redMan', 'redWoman', 'yellowMan'], False], [['blueMan', 'blueWoman'], ['redMan', 'redWoman', 'yellowMan', 'yellowWoman'], True], [['blueMan', 'blueWoman', 'redMan', 'yellowMan'], ['redWoman', 'yellowWoman'], False], [['blueMan', 'redMan', 'yellowMan'], ['blueWoman', 'redWoman', 'yellowWoman'], True], [['blueMan', 'redMan', 'redWoman', 'yellowMan'], ['blueWoman', 'yellowWoman'], False], [['redMan', 'redWoman', 'yellowMan'], ['blueMan', 'blueWoman', 'yellowWoman'], True], [['redMan', 'redWoman', 'yellowMan', 'yellowWoman'], ['blueMan', 'blueWoman'], False], [['redMan', 'redWoman', 'yellowWoman'], ['blueMan', 'blueWoman', 'yellowMan'], True], [['blueMan', 'blueWoman', 'redMan', 'redWoman', 'yellowWoman'], ['yellowMan'], False], [['blueMan', 'blueWoman', 'redMan', 'redWoman'], ['yellowMan', 'yellowWoman'], True], [['blueMan', 'blueWoman', 'redMan', 'redWoman', 'yellowMan'], ['yellowWoman'], False], [['blueMan', 'blueWoman', 'redMan', 'yellowMan'], ['redWoman', 'yellowWoman'], True], [['blueMan', 'blueWoman', 'redMan', 'yellowMan', 'yellowWoman'], ['redWoman'], False], [['blueMan', 'blueWoman', 'yellowMan', 'yellowWoman'], ['redMan', 'redWoman'], True], [['blueMan', 'blueWoman', 'redMan', 'redWoman', 'yellowMan', 'yellowWoman'], [], False]]
+
+MOVE LEFT :redMan, redWoman
+MOVE RighT :redMan
+MOVE LEFT :blueWoman
+MOVE RighT :redWoman
+MOVE LEFT :yellowWoman
+MOVE RighT :blueWoman
+MOVE LEFT :yellowMan
+MOVE RighT :yellowWoman
+MOVE LEFT :redMan, redWoman
+MOVE RighT :yellowMan
+MOVE LEFT :yellowWoman
+MOVE RighT :redMan
+MOVE LEFT :blueWoman
+MOVE RighT :redWoman
+MOVE LEFT :blueMan
+MOVE RighT :yellowWoman
+MOVE LEFT :redMan, yellowMan
+MOVE RighT :blueWoman
+MOVE LEFT :redWoman
+MOVE RighT :blueMan
+MOVE LEFT :yellowWoman
+MOVE RighT :yellowMan
+MOVE LEFT :blueMan, blueWoman
+MOVE RighT :yellowWoman
+MOVE LEFT :yellowMan
+MOVE RighT :redWoman
+MOVE LEFT :yellowWoman
+MOVE RighT :redMan
+MOVE LEFT :redMan, redWoman
